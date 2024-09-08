@@ -1,0 +1,108 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #649FAF;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-bar p {
+    color: #FDFCF7;
+    margin: 10px 20px 10px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    
+    font-weight: 600;
+
+}
+
+.bottom-bar {
+    display: flex;
+    background-color: #FDFCF7;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+}
+
+.logo-title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    color: #484A56;
+    width: 100%;
+    position: absolute;
+    top: 36px;
+    left: 124px;
+    font-weight: 600;
+
+}
+
+.nav-links-container {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 40px;
+    width: 100%;
+}
+
+.nav-links-container li a {
+    color: #484A56;
+    text-decoration: underline;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.hero-section {
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    width: 100%;
+    min-height: 1054px;
+    margin-top: 0;
+    border-top: 1px solid #649FAF;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-family: "Quicksand", sans-serif;
+    padding: 140px 0 8px 36px;
+    margin-top: 0;
+    width: 40%;
+}
+
+.hero-sub-title {
+    font-size: 24px;
+    padding: 12px 0 4px 36px;
+    width: 36%;
+}
+
+.hero-button {
+    background-color: #649FAF;
+    color: #FDFCF7;
+    width: 148px;
+    height: 60px;
+    border: none;
+    box-shadow: 2px 2px #484A56;
+    font-size: 16px;
+    text-align: center;
+    margin: 48px 0 0 12.5%;
+}
